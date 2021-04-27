@@ -80,6 +80,11 @@
         align-items: center;
         flex: 1;
         height: 100%;
+
+        &.sair {
+          filter: opacity(0.5);
+          cursor: default;
+        }
         img {
           margin-left: 1rem;
           margin-right: 1.125rem;

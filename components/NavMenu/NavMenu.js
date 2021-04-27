@@ -1,6 +1,9 @@
+import Link from "next/link";
+import { useState } from "react";
 import styles from "./styles.module.scss";
 
 export function NavMenu() {
+  const [abaAtiva, setAbaAtiva] = useState("");
   return (
     <div className={styles.container}>
       <div className={styles.avatar}>
@@ -14,40 +17,65 @@ export function NavMenu() {
       <h3 className={styles.nome}>Jaqueline de Oliveira</h3>
 
       <ul className={styles.links}>
-        <li className={styles.active}>
-          <a href="#">
-            <img src="pedidos.svg" alt="Meus pedidos" />
-            <span>Meus pedidos</span>
-          </a>
+        <li
+          className={abaAtiva == "" && styles.active}
+          onClick={() => setAbaAtiva("")}
+        >
+          <Link href="/">
+            <a>
+              <img src="pedidos.svg" alt="Meus pedidos" />
+              <span>Meus pedidos</span>
+            </a>
+          </Link>
+        </li>
+        <li
+          className={abaAtiva == "dados" && styles.active}
+          onClick={() => setAbaAtiva("dados")}
+        >
+          <Link href="/dados">
+            <a>
+              <img src="person.svg" alt="Meus dados" />
+              Meus dados
+            </a>
+          </Link>
+        </li>
+        <li
+          className={abaAtiva == "enderecos" && styles.active}
+          onClick={() => setAbaAtiva("enderecos")}
+        >
+          <Link href="/enderecos">
+            <a>
+              <img src="nav-enderecos.svg" alt="Endereços" />
+              Endereços
+            </a>
+          </Link>
+        </li>
+        <li
+          className={abaAtiva == "medidas" && styles.active}
+          onClick={() => setAbaAtiva("medidas")}
+        >
+          <Link href="/medidas">
+            <a>
+              {" "}
+              <img src="nav-medidas.svg" alt="Minhas medidas" />
+              Minhas medidas
+            </a>
+          </Link>
+        </li>
+        <li
+          className={abaAtiva == "conta" && styles.active}
+          onClick={() => setAbaAtiva("conta")}
+        >
+          <Link href="/conta">
+            <a>
+              {" "}
+              <img src="nav-conta.svg" alt="Minha conta" />
+              Minha conta
+            </a>
+          </Link>
         </li>
         <li>
-          <a href="#">
-            <img src="person.svg" alt="Meus dados" />
-            Meus dados
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <img src="nav-enderecos.svg" alt="Endereços" />
-            Endereços
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            {" "}
-            <img src="nav-medidas.svg" alt="Minhas medidas" />
-            Minhas medidas
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            {" "}
-            <img src="nav-conta.svg" alt="Minha conta" />
-            Minha conta
-          </a>
-        </li>
-        <li>
-          <a href="#" aria-disabled>
+          <a className={styles.sair}>
             <img src="nav-sair.svg" alt="Sair" />
             Sair
           </a>

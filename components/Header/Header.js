@@ -2,7 +2,7 @@ import { useState } from "react";
 import { NavMenu } from "../NavMenu/NavMenu";
 import styles from "./styles.module.scss";
 
-export function Header() {
+export default function Header() {
   const [isNavOpen, setIsNavOpen] = useState(false);
   function toggleNav() {
     setIsNavOpen(!isNavOpen);

@@ -1,7 +1,6 @@
 import styles from "./barraprogresso.module.scss";
 
 export function BarraProgresso({ status, andamento }) {
-  console.log(status);
   return (
     <div
       className={`${styles.progresso} 
