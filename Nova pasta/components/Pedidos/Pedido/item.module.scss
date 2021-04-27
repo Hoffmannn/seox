@@ -1,0 +1,59 @@
+.container {
+  display: flex;
+  min-height: 4.5rem;
+  padding: 1.3rem;
+  width: 98%;
+
+  &:not(last-child) {
+    border-bottom: 1px solid #f6f5f5;
+  }
+
+  img {
+    width: 4.5rem;
+    height: 4.5rem;
+    border-radius: 0.5rem;
+  }
+
+  > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 1.25rem;
+
+    div:last-child {
+      display: flex;
+      align-items: center;
+      margin-bottom: 0.3rem;
+    }
+  }
+
+  .preco {
+    margin-top: 0.4rem;
+    color: #aeabaa;
+  }
+
+  .tamanho,
+  .cor {
+    font-size: 0.75rem;
+    padding: 0.3rem 0.75rem;
+    border: 1px solid #efeded;
+    border-radius: 0.25rem;
+    margin-left: 0.625rem;
+  }
+
+  .avalie {
+    margin-left: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    img {
+      width: 1rem;
+      margin-right: 0.516rem;
+
+      &:hover {
+        filter: brightness(0.9);
+        cursor: pointer;
+      }
+    }
+  }
+}

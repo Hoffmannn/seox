@@ -1,0 +1,244 @@
+[
+  {
+    "id": 1,
+    "codigo": "17048",
+    "status": 4,
+    "frete": 35.1,
+    "tipoFrete": "SEDEX",
+    "codigoRastreamento": "OD82132785BR",
+    "formaPagamento": "Cartão de Crédito",
+    "dataEntrega": "02/09/2021",
+    "valor": 980.0,
+    "andamentoStatus": {
+      "pedidoRecebido": "02/03/2021 09:33",
+      "pagamentoAprovado": "02/03/2021 14:33",
+      "emSeparacao": "02/06/2021 09:13",
+      "emTransporte": "02/08/2021 21:45",
+      "pedidoEntregue": "02/09/2021 00:00"
+    },
+    "itens": [
+      {
+        "id": 1,
+        "nome": "Elastique",
+        "valor": 540.0,
+        "quantidade": 2,
+        "cor": "Neutro Rosado",
+        "tamanho": "M",
+        "imagem": "https://i.imgur.com/Sdj1SSE.jpg"
+      },
+      {
+        "id": 2,
+        "nome": "Elastique",
+        "valor": 540.0,
+        "quantidade": 1,
+        "cor": "Preto",
+        "tamanho": "P",
+        "imagem": "https://i.imgur.com/Sdj1SSE.jpg"
+      }
+    ]
+  },
+
+  {
+    "id": 2,
+    "codigo": "15324",
+    "status": 3,
+    "frete": 36.1,
+    "tipoFrete": "PAC",
+    "codigoRastreamento": "OD82132785BR",
+    "formaPagamento": "Cartão de Crédito",
+    "dataEntrega": null,
+    "valor": 70.0,
+    "andamentoStatus": {
+      "pedidoRecebido": "02/03/2021 09:33",
+      "pagamentoAprovado": "02/03/2021 14:33",
+      "emSeparacao": "02/06/2021 09:13",
+      "emTransporte": "02/08/2021 21:45",
+      "pedidoEntregue": null
+    },
+    "itens": [
+      {
+        "id": 1,
+        "nome": "Elastique",
+        "valor": 70,
+        "quantidade": 1,
+        "cor": "Neutro Rosado",
+        "tamanho": "M",
+        "imagem": "https://i.imgur.com/Sdj1SSE.jpg"
+      }
+    ]
+  },
+
+  {
+    "id": 3,
+    "codigo": "16432",
+    "status": 2,
+    "frete": 25.1,
+    "tipoFrete": "Loggi",
+    "codigoRastreamento": "OD82132785BR",
+    "formaPagamento": "Cartão de Crédito",
+    "dataEntrega": null,
+    "valor": 800.0,
+    "andamentoStatus": {
+      "pedidoRecebido": "02/03/2021 09:33",
+      "pagamentoAprovado": "02/03/2021 14:33",
+      "emSeparacao": "02/06/2021 09:13",
+      "emTransporte": null,
+      "pedidoEntregue": null
+    },
+    "itens": [
+      {
+        "id": 1,
+        "nome": "Elastique",
+        "valor": 540.0,
+        "quantidade": 1,
+        "cor": "Neutro Rosado",
+        "tamanho": "M",
+        "imagem": "https://i.imgur.com/Sdj1SSE.jpg"
+      },
+      {
+        "id": 2,
+        "nome": "Elastique",
+        "valor": 540.0,
+        "quantidade": 1,
+        "cor": "Preto",
+        "tamanho": "P",
+        "imagem": "https://i.imgur.com/Sdj1SSE.jpg"
+      }
+    ]
+  },
+
+  {
+    "id": 4,
+    "codigo": "36597",
+    "status": 1,
+    "frete": 35.1,
+    "tipoFrete": "SEDEX",
+    "codigoRastreamento": "OD82132785BR",
+    "formaPagamento": "Cartão de Crédito",
+    "dataEntrega": "02/09/2021",
+    "valor": 1250.0,
+    "andamentoStatus": {
+      "pedidoRecebido": "02/03/2021 09:33",
+      "pagamentoAprovado": "02/03/2021 14:33",
+      "emSeparacao": null,
+      "emTransporte": null,
+      "pedidoEntregue": null
+    },
+    "itens": [
+      {
+        "id": 1,
+        "nome": "Elastique",
+        "valor": 540.0,
+        "quantidade": 1,
+        "cor": "Neutro Rosado",
+        "tamanho": "M",
+        "imagem": "https://i.imgur.com/Sdj1SSE.jpg"
+      },
+      {
+        "id": 2,
+        "nome": "Elastique",
+        "valor": 540.0,
+        "quantidade": 1,
+        "cor": "Preto",
+        "tamanho": "P",
+        "imagem": "https://i.imgur.com/Sdj1SSE.jpg"
+      }
+    ]
+  },
+
+  {
+    "id": 5,
+    "codigo": "64528",
+    "status": 0,
+    "frete": 35.1,
+    "tipoFrete": "SEDEX",
+    "codigoRastreamento": "OD82132785BR",
+    "formaPagamento": "Cartão de Crédito",
+    "dataEntrega": "02/09/2021",
+    "valor": 800,
+    "andamentoStatus": {
+      "pedidoRecebido": "02/03/2021 09:33",
+      "pagamentoAprovado": null,
+      "emSeparacao": null,
+      "emTransporte": null,
+      "pedidoEntregue": null
+    },
+    "itens": [
+      {
+        "id": 1,
+        "nome": "Elastique",
+        "valor": 540.0,
+        "quantidade": 2,
+        "cor": "Neutro Rosado",
+        "tamanho": "M",
+        "imagem": "https://i.imgur.com/Sdj1SSE.jpg"
+      },
+      {
+        "id": 2,
+        "nome": "Elastique",
+        "valor": 540.0,
+        "quantidade": 1,
+        "cor": "Preto",
+        "tamanho": "P",
+        "imagem": "https://i.imgur.com/Sdj1SSE.jpg"
+      },
+      {
+        "id": 3,
+        "nome": "Elastique",
+        "valor": 540.0,
+        "quantidade": 1,
+        "cor": "Preto",
+        "tamanho": "P",
+        "imagem": "https://i.imgur.com/Sdj1SSE.jpg"
+      }
+    ]
+  },
+
+  {
+    "id": 6,
+    "codigo": "36597",
+    "status": 5,
+    "frete": 1600,
+    "tipoFrete": "SEDEX",
+    "codigoRastreamento": "OD82132785BR",
+    "formaPagamento": "Cartão de Crédito",
+    "dataEntrega": "02/09/2021",
+    "valor": 1250.0,
+    "andamentoStatus": {
+      "pedidoRecebido": "02/03/2021 09:33",
+      "pagamentoAprovado": "02/03/2021 14:33",
+      "emSeparacao": null,
+      "emTransporte": null,
+      "pedidoEntregue": null
+    },
+    "itens": [
+      {
+        "id": 1,
+        "nome": "Elastique",
+        "valor": 540.0,
+        "quantidade": 1,
+        "cor": "Neutro Rosado",
+        "tamanho": "M",
+        "imagem": "https://i.imgur.com/Sdj1SSE.jpg"
+      },
+      {
+        "id": 2,
+        "nome": "Elastique",
+        "valor": 540.0,
+        "quantidade": 1,
+        "cor": "Preto",
+        "tamanho": "P",
+        "imagem": "https://i.imgur.com/Sdj1SSE.jpg"
+      },
+      {
+        "id": 3,
+        "nome": "Elastique",
+        "valor": 540.0,
+        "quantidade": 1,
+        "cor": "Preto",
+        "tamanho": "P",
+        "imagem": "https://i.imgur.com/Sdj1SSE.jpg"
+      }
+    ]
+  }
+]
