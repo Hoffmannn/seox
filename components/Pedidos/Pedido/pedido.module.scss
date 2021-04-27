@@ -18,7 +18,7 @@ $cancelado: #fa5252;
   padding-left: 1.625rem;
   width: 50.5rem;
   max-height: 7rem;
-  transition: max-height 0.2s;
+  transition: max-height 0.2s ease-in;
   overflow: hidden;
 
   p,
@@ -28,7 +28,7 @@ $cancelado: #fa5252;
     line-height: 0.952rem;
   }
   &.active {
-    max-height: 999vh;
+    max-height: 150vh;
   }
 
   .statusPedido {
